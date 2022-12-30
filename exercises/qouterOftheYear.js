@@ -8,5 +8,3 @@ const quarterOf = (month) => {
 };
 
 console.log(quarterOf(4));
-
-// Test
