@@ -2,6 +2,5 @@
 
 const positiveSum = (arr) => arr.reduce((sum, n) => (n > 0 ? sum + n : sum), 0);
 
-console.log(positiveSum([1, 2, 3]));
+console.log(positiveSum([1, 2, 3, -5]));
 
-// * Use of reduce https://code.tutsplus.com/articles/5-real-life-uses-for-the-javascript-reduce-method--cms-39096
