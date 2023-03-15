@@ -12,5 +12,5 @@ function getCount(str) {
   }
 }
 
-console.log(getCount("my pyx"));
-console.log(getCount("lina"));
+console.log(getCount('my pyx'));
+console.log(getCount('lina'));

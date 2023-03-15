@@ -3,7 +3,6 @@
 // LBA: For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.
 
 const quarterOf = (month) => {
-  // Your code here
   return Math.ceil(month / 3);
 };
 
