@@ -6,20 +6,20 @@ For example, when the input is green, output should be yellow. */
 
 function updateLight(current) {
   switch (current) {
-    case (current = "green"):
-      return "yellow";
+    case 'green':
+      return 'yellow';
       break;
-    case (current = "yellow"):
-      return "red";
+    case 'yellow':
+      return 'red';
       break;
-    case (current = "red"):
-      return "green";
+    case 'red':
+      return 'green';
       break;
     default:
       return 'Insert one of the values: "green", "yellow" or "red"';
   }
 }
 
-console.log(updateLight("green"));
-console.log(updateLight("white"));
+console.log(updateLight('green'));
+console.log(updateLight('white'));
 
